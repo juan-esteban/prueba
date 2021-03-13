@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Rent Car</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="css/Page.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js">
+	</script>
+    <script type="text/javascript" src="main.js">
+	</script>
+	<link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+	<!--HEADER-->
+	<div class="container" id="nav-bar">
+		<div class="jumbotron">
+			<h1>Rent Car</h1>
+		</div>
+		<div class="nav">
+			<div>
+				<i class="fa fa-search"></i> <input class="form-control inputPadding" placeholder="Buscar" type="text">
+			</div>
+		</div>
+	</div><!--END HEADER-->
+	<!--CONTENT ALL-->
+	<div class="bg-grey" id="seccion1">
+
+		<div class=" container">
+            <h2 class="filter-title">Busca por marca</h2>
+            <div class="filter-btn">
+                <div class="btn-mercedes">
+                    <img src="Img/Mercedes.png">
+                    
+                </div>
+                <div class="btn-audi">
+                    <img src="Img/audi.jpg">
+                    
+                </div>
+                <div class="btn-citroen">
+                    <img src="Img/Citroen.jpg">
+                   
+                </div>
+                <span class="btn-remove">Remove filter</span>
+            </div>
+			<p class="subtitle">Renta de autos al instante</p>
+			<div class="row">
+				<div class="col-md-6 col-xl-4 tarjeta city-ciudadp city-all model-audi">
+					<div class="header-tarjeta">
+						<img class="img" src="Img/auto1.png">
+						<p>Audi A4</p>
+					</div>
+					<div class="detalle">
+						<p>Sedan Premium</p>
+						<p>Automatico</p>
+						<p>Gasolina</p>
+					</div>
+					<div class="boton">
+						<button class="btn-rent"><a href="#">$55/Dia</a></button> <button class="btn-detalle"><a href="#">Detalle</a></button>
+					</div>
+
+				</div>
+				<div class="col-md-6 col-xl-4 tarjeta city-ciudadp model-audi">
+					<div class="header-tarjeta">
+						<img class="img" src="Img/auto2.png">
+						<p> Audi A3</p>
+					</div>
+					<div class="detalle">
+						<p>hatchback</p>
+						<p>Automatica</p>
+						<p>Gasolina</p>
+					</div>
+					<div class="boton">
+						<button class="btn-rent"><a href="#">$45/Dia</a></button> <button class="btn-detalle"><a href="#">Detalle</a></button>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-4 tarjeta city-ciudadcho model-citroen">
+					<div class="header-tarjeta">
+						<img class="img" src="Img/auto3.png">
+						<p>Citroen C3</p>
+					</div>
+					<div class="detalle">
+						<p>hatchback</p>
+						<p>Manual</p>
+						<p>Gasolina</p>
+					</div>
+					<div class="boton">
+						<button class="btn-rent"><a href="#">$40/Dia</a></button> <button class="btn-detalle"><a href="#">Detalle</a></button>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-4 tarjeta city-ciudadchi city-ciudadcho model-mercedes">
+					<div class="header-tarjeta">
+						<img class="img" src="Img/auto4.png">
+						<p>Mercedes Benz C180</p>
+					</div>
+					<div class="detalle">
+						<p>Sedan</p>
+						<p>Manual</p>
+						<p>Gasolina</p>
+					</div>
+					<div class="boton">
+						<button class="btn-rent"><a href="Img/auto5.png">$80/Dia</a></button> <button class="btn-detalle"><a href="#">Detalle</a></button>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-4 tarjeta city-ciudadp model-volkswagen">
+					<div class="header-tarjeta">
+						<img class="img" src="Img/auto5.png">
+						<p>Volkswagen Golf</p>
+					</div>
+					<div class="detalle">
+						<p>hatchback</p>
+						<p>Manual</p>
+						<p>Gasolina</p>
+					</div>
+					<div class="boton">
+						<button class="btn-rent"><a href="#">$45/Dia</a></button> <button class="btn-detalle"><a href="#">Detalle</a></button>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-4 tarjeta city-ciudadp model-citroen">
+					<div class="header-tarjeta">
+						<img class="img" src="Img/crossover.png">
+						<p>Citroen C3</p>
+					</div>
+					<div class="detalle">
+						<p>Crossover SUV</p>
+						<p>Automatico</p>
+						<p>Gasolina</p>
+					</div>
+					<div class="boton">
+						<button class="btn-rent"><a href="#">$60/Dia</a></button> <button class="btn-detalle"><a href="#">Detalle</a></button>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-4 tarjeta city-all model-volkswagen">
+					<div class="header-tarjeta">
+						<img class="img" src="Img/Familiar1.png">
+						<p>Volkswagen California</p>
+					</div>
+					<div class="detalle">
+						<p>Caravana</p>
+						<p>Manual</p>
+						<p>Diesel</p>
+					</div>
+					<div class="boton">
+						<button class="btn-rent"><a href="#">$90/Dia</a></button> <button class="btn-detalle"><a href="#">Detalle</a></button>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-4 tarjeta city-ciudadcho model-Hyundai">
+					<div class="header-tarjeta">
+						<img class="img" src="Img/suv1.png">
+						<p>Hyundai Santa fe</p>
+					</div>
+					<div class="detalle">
+						<p>Suv</p>
+						<p>Automatico</p>
+						<p>Gasolina</p>
+					</div>
+					<div class="boton">
+						<button class="btn-rent"><a href="#">$50/Dia</a></button> <button class="btn-detalle"><a href="#">Detalle</a></button>
+					</div>
+				</div>
+				<div class="col-md-6 col-xl-4 tarjeta city-ciudadcho model-audi">
+					<div class="header-tarjeta">
+						<img class="img" src="Img/auto1.png">
+						<p>Audi A7</p>
+					</div>
+					<div class="detalle">
+						<p>Sedan</p>
+						<p>Manual</p>
+						<p>Gasolina</p>
+					</div>
+					<div class="boton">
+						<button class="btn-rent"><a href="#">$50/Dia</a></button> <button class="btn-detalle"><a href="#">Detalle</a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+    <footer>
+		<div class="TItulos">
+    
+            <p>Rent Car </p>
+            
+        </div>
+        
+        <ul>
+            <li><a href="#">hege@example.com</a></li>
+            <li>Telefono: 65324586</li>
+            <li>Telefono: 69834565</li>
+            <li>Calle 17 50 de agosto edificio tower oficinas 5</li>
+            
+           
+
+        </ul>
+
+    </footer>
+    <div class="position-modal" id="modal1">  
+        <div class="modaldetails">
+            <span class="Closemodal"><i class="fas fa-times"></i></span>
+            <div class="body-content">
+                <div class="TItulos">
+                    <h1 class="title">Detalle</h1>
+    
+                </div>
+                <div class="cnt">
+                    <p>Marca: Audi A4</p>
+                    <p>Modelo: 2014</p>
+                    <p>Transmision: Automatico</p>
+                    <p>Kilometraje: 65,850</p>
+                    <p>Conbustible: Gasolina</p>
+                 
+                </div>
+    
+                <div class="info">
+                COnduce con las mejores comodidas y la mejor disposicion de potencia de motor con el audi A4
+                </div>  
+            </div>  
+        </div>
+    </div>
+    <div class="position-modal" id="modal2">  
+        <div class="modalrent">
+            <span class="Closemodalrent"><i class="fas fa-times"></i></span>
+            <div class="body-content">
+                <div class="TItulos">
+                    <h1 class="title">Registro</h1>
+    
+                </div>
+                <form>
+                    <input class="" type="text" placeholder="Name">
+                    <input class="" type="text" placeholder="Last name">
+                    <input class="" type="number" placeholder="Phone">
+                    <input class="" type="email" placeholder="Email">
+                    <input class="btn-form" type="submit">
+                </form>
+    
+                <div class="info">
+                    Conduce con las mejores comodidas y la mejor disposicion de potencia de motor con el audi A4
+                </div>  
+            </div>  
+        </div>
+
+    </div>
+</body>
+<script>
+    $(".btn-audi").click(function() {
+    
+    $.each($(".tarjeta"), function() {
+
+        var element = $(".tarjeta.model-audi");
+        if((element).hasClass( "model-audi" )) {
+            $("#seccion1 .container .row").addClass("filter-on");
+            $(".tarjeta").addClass("hide");
+            $("body").addClass("modal-open");
+            $(element).addClass("show").removeClass("hide");
+
+        }
+
+    });
+
+});
+$(".btn-mercedes").click(function() {
+    
+    $.each($(".tarjeta"), function() {
+
+        var element = $(".tarjeta.model-mercedes");
+        if((element).hasClass( "model-mercedes" )) {
+            $("#seccion1 .container .row").addClass("filter-on");
+            $(".tarjeta").addClass("hide");
+            $("body").addClass("modal-open");
+            $(element).addClass("show").removeClass("hide");
+
+        }
+
+    });
+
+});
+$(".btn-citroen").click(function() {
+    
+    $.each($(".tarjeta"), function() {
+
+        var element = $(".tarjeta.model-citroen");
+        if((element).hasClass( "model-citroen" )) {
+            $("#seccion1 .container .row").addClass("filter-on");
+            $(".tarjeta").addClass("hide");
+            $("body").addClass("modal-open");
+            $(element).addClass("show").removeClass("hide");
+
+        }
+
+    });
+
+});
+
+$(".btn-remove").click(function() {
+    
+    $(".tarjeta").removeClass("hide").addClass("show");
+    $("#seccion1 .container .row").removeClass("filter-on");
+
+
+});
+
+$(".btn-detalle").click(function() {
+    $("#modal1").removeClass("hide");
+    $("#modal1").addClass("show");
+    $("body").addClass("modal-open");
+
+
+});
+
+$(".Closemodal").click(function() {
+    $("#modal1").removeClass("show");
+    $("#modal1").addClass("hide");
+    $("body").removeClass("modal-open");
+
+
+});
+
+$(".btn-rent").click(function() {
+    $("#modal2").removeClass("hide");
+    $("#modal2").addClass("show");
+    $("body").addClass("modal-open");
+});
+
+$(".Closemodalrent").click(function() {
+    $("#modal2").removeClass("show");
+    $("#modal2").addClass("hide");
+    $("body").removeClass("modal-open");
+});
+</script>
+</html>

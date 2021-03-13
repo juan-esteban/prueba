@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 0,100; 0,300; 0,400; 0,500; 0,700; 0,900; 1,100; 1,300; 1,400; 1,500; 1,700; 1,900 & display = swap '); 
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(90deg, #294279, #9AACD1);
+    padding: 20px;
+
+}
+
+.container-all{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.ctn-form{
+   
+    width: 80%;
+    padding: 40px;
+    background: #fff ;
+}
+
+
+.logo{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.title{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+Label{
+    display:block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #7a7a7a;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 100px;
+    height: 20px;
+
+
+}
+
+/*input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    margin-top: 60px;
+    color:white;
+    border: 0px;
+    background: linear-gradient(90deg, #294279, #9AACD1);
+
+}
+
+img.img {
+    width: 188px;
+    display: block;
+    margin: 0 auto 0 0;
+}
+
+.tarjeta {
+    background: #d2d2d287;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.header-tarjeta {
+    display: flex;
+    max-height: 130px;
+}
+
+.header-tarjeta p {
+    font-size: 20px;
+    color: #575757;
+    font-weight: bold;
+    /* vertical-align: bottom; */
+    max-height: 24px;
+    display: block;
+    margin: auto 0 29px;
+    width: 100%;
+    text-align: right;
+}
+
+.detalle p {
+    color: #575757;
+}
+
+.detalle {
+    display: flex;
+    justify-content: space-between;
+}
+
+button.btn-rent {border: black;border-radius: 10px;background: #f2cc10;width: 49%;height: 35px;border: blue;}
+
+button.btn-detalle {
+    width: 45%;
+    height: 35px;
+    border: 1px solid #696969ba;
+    border-radius: 10px;
+    /* border: unset; */
+}
+
+.boton button a {
+    color: #000;
+    font-weight: bold;
+   
+}
+
+.boton {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarjeta:nth-child(3n+3) {
+    margin-right: 0!important;
+}
+
+#seccion1 .container .row {
+    justify-content: space-between;
+}
+
+.tarjeta:nth-child(1n+4), .tarjeta:nth-child(1) {
+    margin-left: 0;
+}
